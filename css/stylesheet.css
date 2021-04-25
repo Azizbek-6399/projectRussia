@@ -1,0 +1,747 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+.gotop {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 333333333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 10px;
+  right: 5px;
+  background-color: #630e3e; }
+  .gotop i {
+    color: white;
+    font-size: 15px; }
+
+header .navbar .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.6px; }
+
+.section-novosti .boxDesktop .toppd .foodXold, .section-novosti .boxDesktop1 .toppd .foodXold, .section-novosti .card .topp .foodXol, .section-novosti .collps .aaa, .section-servis .colcha .card .texticon, .section-footer .first {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26.33px; }
+
+.section-novosti .card .topp .aboudFood {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.33px; }
+
+.section-novosti .boxDesktop .toppd .daboudFood, .section-novosti .boxDesktop .toppd .dsana, .section-novosti .boxDesktop1 .toppd .daboudFood, .section-novosti .boxDesktop1 .toppd .dsana, .section-novosti .card .topp .sana {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; }
+
+.section-novosti .new, .section-novosti .colll .textfam, .section-servis .novosti {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44.57px; }
+
+.section-footer .footerzapas .textmitti {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px; }
+
+.section-novosti .colll .textfamun {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 33.6px; }
+
+.section-novosti .coll-4 .div .park {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 33.6px; }
+
+.section-novosti .coll-4 .div .samiy {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 60px; }
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99999 !important;
+  background-color: white;
+  box-shadow: 0px 2px 5px #f0efef; }
+  header .navbar {
+    width: 100% !important; }
+    header .navbar .navbar-toggler {
+      outline: none !important; }
+    header .navbar .navbar-nav {
+      margin: 5px 0px 0px 40px; }
+      header .navbar .navbar-nav .nav-link {
+        color: black; }
+        header .navbar .navbar-nav .nav-link:hover {
+          color: #8b2860; }
+      header .navbar .navbar-nav .icons {
+        margin-top: 5px;
+        margin-left: 60px; }
+
+.section-carusel {
+  margin-top: 58px; }
+  .section-carusel .carousel .vid {
+    width: 90px;
+    height: 90px;
+    top: 43%;
+    left: 46.8%; }
+    .section-carusel .carousel .vid img {
+      width: 100%;
+      cursor: pointer !important; }
+  .section-carusel .carousel .carousel-indicators {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important; }
+    .section-carusel .carousel .carousel-indicators .one {
+      position: absolute;
+      top: 40%;
+      right: 1%;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      opacity: 1 !important; }
+    .section-carusel .carousel .carousel-indicators .two {
+      position: absolute;
+      top: 48%;
+      right: 1%;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      opacity: 1 !important; }
+    .section-carusel .carousel .carousel-indicators .three {
+      position: absolute;
+      top: 56%;
+      right: 1%;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      opacity: 1 !important; }
+    .section-carusel .carousel .carousel-indicators .active {
+      background-color: #8b2860; }
+
+@media (max-width: 1200px) {
+  header .navbar-nav .icons {
+    margin: 0 !important; } }
+@media (min-width: 200px) and (max-width: 300px) {
+  header {
+    box-shadow: 0px 3px 15px white; }
+
+  .section-carusel .one {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    position: absolute !important;
+    top: 25% !important; }
+  .section-carusel .two {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    position: absolute !important;
+    top: 40% !important; }
+  .section-carusel .three {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    position: absolute !important;
+    top: 55% !important; }
+  .section-carusel .vid {
+    position: absolute !important;
+    width: 60px !important;
+    height: 60px !important;
+    top: 25% !important;
+    left: 40% !important; } }
+@media (max-width: 350px) {
+  .section-novosti .new {
+    font-size: 20px;
+    font-weight: 400; }
+  .section-novosti .card .topp .foodXol {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    list-style: 18px !important; }
+  .section-novosti .card .topp .aboudFood {
+    font-size: 12.5px !important;
+    font-weight: 450 !important;
+    line-height: 15px !important; }
+  .section-novosti .card .topp .sana {
+    font-size: 12px !important;
+    font-weight: 400 !important; }
+  .section-novosti .mediaa {
+    display: block !important; }
+    .section-novosti .mediaa .collps .aaa {
+      font-size: 15px; } }
+@media (min-width: 301px) and (max-width: 576px) {
+  header {
+    box-shadow: 0px 5px 20px #f1eeee; }
+
+  .section-carusel .one {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    position: absolute !important;
+    top: 35% !important; }
+  .section-carusel .two {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    position: absolute !important;
+    top: 45% !important; }
+  .section-carusel .three {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    position: absolute !important;
+    top: 55% !important; }
+  .section-carusel .vid {
+    position: absolute !important;
+    width: 70px !important;
+    height: 70px !important;
+    top: 30% !important;
+    left: 44% !important; }
+
+  .section-servis .novosti {
+    font-size: 22px !important;
+    font-weight: 500 !important; }
+  .section-servis .colcha {
+    width: 50% !important; }
+
+  .section-novosti .desktop {
+    display: none; }
+  .section-novosti .mediaa {
+    display: block !important; }
+    .section-novosti .mediaa .colll {
+      padding: 0 !important; }
+  .section-novosti .new {
+    font-size: 25px;
+    font-weight: 500;
+    list-style: 20px;
+    margin-left: 5%; }
+  .section-novosti .unline {
+    margin-left: -5% !important; }
+
+  .section-footer .f-desctop {
+    display: none; }
+  .section-footer .footerzapas {
+    display: block !important; } }
+@media (width: 576px) {
+  .section-novosti .mediaa .colll .imgleft {
+    transform: translateX(-7%) !important; }
+  .section-novosti .mediaa .colll .imgright {
+    transform: translateX(8%) !important; } }
+@media (min-width: 577px) and (max-width: 768px) {
+  header {
+    box-shadow: 0px 2px 5px #f0efef; }
+
+  .section-carusel .one {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    position: absolute !important;
+    top: 35% !important; }
+  .section-carusel .two {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    position: absolute !important;
+    top: 45% !important; }
+  .section-carusel .three {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    position: absolute !important;
+    top: 55% !important; }
+  .section-carusel .vid {
+    position: absolute !important;
+    width: 90px !important;
+    height: 90px !important;
+    top: 33% !important;
+    left: 44% !important; }
+
+  .section-servis .novosti {
+    font-size: 26px !important;
+    font-weight: 500 !important; }
+  .section-servis .colcha {
+    width: 33.3% !important; }
+
+  .section-novosti .new {
+    font-size: 30px;
+    font-weight: 600;
+    list-style: 30px;
+    margin-left: 10%; }
+  .section-novosti .unline {
+    margin-left: -5% !important; }
+  .section-novosti .boxDesktop .foodXold {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 28px !important; }
+  .section-novosti .boxDesktop .daboudFood {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 25px !important;
+    margin-top: 20px !important; }
+  .section-novosti .boxDesktop .dsana {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 25px !important;
+    margin-top: 10px !important; }
+  .section-novosti .boxDesktop1 .foodXold {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 28px !important; }
+  .section-novosti .boxDesktop1 .daboudFood {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 25px !important;
+    margin-top: 20px !important; }
+  .section-novosti .boxDesktop1 .dsana {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 25px !important;
+    margin-top: 10px !important; }
+  .section-novosti .div .samiy {
+    text-align: center !important; }
+  .section-novosti .div .park {
+    text-align: center !important; }
+  .section-novosti .boximg {
+    width: 70% !important; }
+    .section-novosti .boximg img {
+      padding-left: 0 !important;
+      width: 100% !important;
+      margin-left: 22% !important; } }
+@media (min-width: 769px) and (max-width: 992px) {
+  header {
+    box-shadow: 0px 5px 20px white; }
+
+  .section-carusel .vid {
+    position: absolute !important;
+    width: 90px !important;
+    height: 90px !important;
+    top: 38% !important;
+    left: 46% !important; }
+
+  .section-servis {
+    width: 100%; }
+    .section-servis .novosti {
+      font-size: 26px !important;
+      font-weight: 650 !important; }
+    .section-servis .colcha {
+      padding: 0 10px !important;
+      width: 25% !important; }
+
+  .section-novosti .new {
+    font-size: 34px;
+    font-weight: 650;
+    list-style: 30px;
+    margin-left: 5%; }
+  .section-novosti .unline {
+    margin-left: 5%; }
+  .section-novosti .boxDesktop .foodXold {
+    font-size: 14px !important;
+    font-weight: bolder !important;
+    line-height: 15px !important; }
+  .section-novosti .boxDesktop .daboudFood {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    line-height: 10px !important; }
+  .section-novosti .boxDesktop .dsana {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    line-height: 10px !important; }
+  .section-novosti .boxDesktop1 .foodXold {
+    font-size: 14px !important;
+    font-weight: bolder !important;
+    line-height: 15px !important; }
+  .section-novosti .boxDesktop1 .daboudFood {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    line-height: 10px !important; }
+  .section-novosti .boxDesktop1 .dsana {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    line-height: 10px !important; }
+  .section-novosti .col-md-4 .div .samiy {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important; }
+  .section-novosti .col-md-4 .div .park {
+    font-size: 18px !important;
+    font-weight: 550 !important;
+    line-height: 20px !important; } }
+@media (min-width: 993px) and (max-width: 1200px) {
+  header .container .navbar-toggler {
+    flex: end !important; }
+
+  .section-novosti .boxDesktop .foodXold {
+    font-size: 15px !important;
+    font-weight: 700 !important; }
+  .section-novosti .boxDesktop .daboudFood {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 12px !important; }
+  .section-novosti .boxDesktop .dsana {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    line-height: 12px !important; }
+  .section-novosti .boxDesktop1 .foodXold {
+    font-size: 15px !important;
+    font-weight: 700 !important; }
+  .section-novosti .boxDesktop1 .daboudFood {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 12px !important; }
+  .section-novosti .boxDesktop1 .dsana {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    line-height: 12px !important; }
+  .section-novosti .coll-4 .div .samiy {
+    font-size: 32px !important;
+    font-weight: 700 !important; }
+  .section-novosti .coll-4 .div .park {
+    margin-top: -10px !important;
+    font-size: 27px !important;
+    font-weight: 600 !important; }
+  .section-novosti .coll-4 .boximg img {
+    width: 100% !important;
+    margin-top: 30px !important;
+    transform: translateX(-25px) !important; } }
+@media (max-width: 480px) {
+  .section-novosti .card .foodXol {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    line-height: 19.6px !important; }
+  .section-novosti .card .aboudFood {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 18.06px !important; }
+  .section-novosti .card .sana {
+    font-size: 13px;
+    font-weight: 450; }
+
+  .section-footer .linerFooter {
+    width: 100%;
+    height: 2px;
+    background-color: #8b2860;
+    display: block !important; } }
+.section-novosti {
+  overflow-x: hidden !important; }
+  .section-novosti .boxDesktop {
+    border-radius: 4px !important;
+    width: 105% !important;
+    height: 100% !important;
+    position: relative;
+    z-index: 1;
+    cursor: pointer; }
+    .section-novosti .boxDesktop:hover .toppd {
+      background-color: #aec50d;
+      color: white; }
+    .section-novosti .boxDesktop .toppd {
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      position: absolute;
+      top: 0;
+      padding: 2% 4%;
+      width: 100%;
+      height: 42%;
+      background-color: white;
+      z-index: 1; }
+      .section-novosti .boxDesktop .toppd .dsana {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: flex-end; }
+    .section-novosti .boxDesktop .strelka {
+      top: 40% !important; }
+    .section-novosti .boxDesktop img {
+      border-radius: 4px !important; }
+  .section-novosti .boxDesktop1 {
+    border-radius: 4px !important;
+    width: 105% !important;
+    height: 100% !important;
+    position: relative;
+    z-index: 1;
+    cursor: pointer; }
+    .section-novosti .boxDesktop1:hover .toppd {
+      background-color: #aec50d;
+      color: white !important; }
+    .section-novosti .boxDesktop1 .toppd {
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      padding: 2% 4%;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 42%;
+      background-color: white;
+      z-index: 1; }
+      .section-novosti .boxDesktop1 .toppd .dsana {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: flex-end; }
+    .section-novosti .boxDesktop1 img {
+      border-radius: 4px !important; }
+    .section-novosti .boxDesktop1 .strelka {
+      top: 40% !important; }
+  .section-novosti .coll-4 {
+    padding: 0 !important; }
+    .section-novosti .coll-4 .div {
+      width: 100% !important; }
+      .section-novosti .coll-4 .div .samiy {
+        color: #aec50d; }
+      .section-novosti .coll-4 .div .park {
+        color: #aec50d;
+        text-align: right; }
+    .section-novosti .coll-4 .boximg img {
+      width: 123% !important;
+      margin-top: 50px;
+      transform: translateX(-30px); }
+  .section-novosti .unline {
+    width: 100%;
+    height: 1px;
+    background-color: #bab3b3;
+    margin-top: 33px; }
+  .section-novosti .mediaa {
+    display: none;
+    z-index: 3333; }
+  .section-novosti .colll {
+    margin: 50px 0px 120px 0px;
+    padding: 0px !important; }
+    .section-novosti .colll .imgFamily {
+      box-shadow: none !important; }
+      .section-novosti .colll .imgFamily .imgleft {
+        transform: translateY(100px);
+        bottom: 0;
+        left: 0; }
+      .section-novosti .colll .imgFamily .imgright {
+        top: 0;
+        right: 0;
+        transform: translateY(-100px); }
+    .section-novosti .colll .textfam {
+      margin-left: 5%;
+      color: #aec50d; }
+    .section-novosti .colll .textfamun {
+      margin-left: 5%;
+      color: #aec50d; }
+  .section-novosti .card {
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 5px 5px #e6dfdf, -1px -1px 2px #e6dfdf;
+    border-radius: 10px; }
+    .section-novosti .card img {
+      width: 100% !important;
+      height: 100%;
+      border-radius: 10px; }
+    .section-novosti .card .topp {
+      width: 100%;
+      height: 60%;
+      background-color: white;
+      top: 0;
+      left: 0;
+      z-index: 11;
+      border-radius: 10px;
+      padding: 6% 6% 0% 6%; }
+      .section-novosti .card .topp .foodXol {
+        color: #6f6f6f; }
+      .section-novosti .card .topp .aboudFood {
+        color: #6f6f6f; }
+      .section-novosti .card .topp .sana {
+        color: #6f6f6f;
+        margin-left: 75% !important; }
+    .section-novosti .card:hover .topp {
+      background-color: #aec50d; }
+    .section-novosti .card:hover .strelka {
+      border-top: 22px solid #aec50d; }
+    .section-novosti .card:hover p {
+      color: white !important; }
+  .section-novosti .collps {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-end;
+    margin-right: 20px; }
+    .section-novosti .collps .aaa {
+      color: #6f6f6f; }
+
+.section-servis {
+  width: 100%; }
+  .section-servis .line {
+    width: 100%;
+    height: 1px;
+    background-color: #d1c5c5;
+    margin-top: 33px; }
+  .section-servis .colcha {
+    padding: 0 10px !important;
+    width: 20%; }
+    .section-servis .colcha .card {
+      background-image: url("../img/gul.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 5px 5px 5px #e7e3e3, -1px -1px 5px #f5f1f1;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      cursor: pointer;
+      border: none; }
+      .section-servis .colcha .card:hover {
+        box-shadow: 2px 10px 10px #d8d5d5, 0px 0px 0px transparent; }
+      .section-servis .colcha .card:hover .call {
+        background-color: #8b2860; }
+      .section-servis .colcha .card:hover .icon {
+        background-color: white; }
+      .section-servis .colcha .card .poisk {
+        margin-top: 30px; }
+      .section-servis .colcha .card .call {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); }
+      .section-servis .colcha .card .texticon {
+        color: #8b2860; }
+      .section-servis .colcha .card .culo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .section-servis .colcha .card .culo .textIcon {
+          width: 90%;
+          color: white;
+          padding: 1px 0px;
+          box-sizing: border-box;
+          background-color: #8b2860;
+          border-radius: 15px; }
+    .section-servis .colcha .oyna {
+      width: 100%;
+      height: 100%;
+      background-color: transparent; }
+
+.section-footer .doira {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #8b2860;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.section-footer .first {
+  color: black;
+  cursor: pointer; }
+  .section-footer .first:hover {
+    color: #8b2860; }
+.section-footer .bgg {
+  padding: 0px 5px;
+  border-radius: 4px;
+  cursor: pointer; }
+  .section-footer .bgg:hover {
+    background-color: #bab3b3; }
+  .section-footer .bgg:hover .iconFooter {
+    background-color: #8b2860; }
+  .section-footer .bgg:hover span {
+    color: white; }
+.section-footer .container-fluid {
+  background-color: #8b2860;
+  height: 48px; }
+  .section-footer .container-fluid p {
+    color: white; }
+.section-footer .footerzapas .blackk:hover {
+  color: black !important; }
+.section-footer .footerzapas .chiziq {
+  width: 94%;
+  height: 2px;
+  background-color: #8b2860;
+  margin-left: 3%; }
+.section-footer .footerzapas .quti1, .section-footer .footerzapas .quti2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #8b2860;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.section-footer .footerzapas .quti2 {
+  margin-left: 30%; }
+.section-footer .footerzapas .textmitti {
+  color: #bab3b3;
+  padding: 2px 3px;
+  border-radius: 5px;
+  margin-top: 20px; }
+  .section-footer .footerzapas .textmitti:hover {
+    background-color: #bab3b3;
+    color: white; }
+    .section-footer .footerzapas .textmitti:hover .iconFooter {
+      background-color: #8b2860; }
+  .section-footer .footerzapas .textmitti .iconFooter {
+    margin-bottom: -3px; }
+
+.quyi-media {
+  background-color: #8b2860;
+  height: 60px !important; }
+
+.iconFooter {
+  width: 15.83px;
+  height: 15.83px;
+  background-color: #bab3b3;
+  display: inline-block;
+  cursor: pointer;
+  mask-position: center center;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  -webkit-mask-position: center center;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat; }
+
+.icon {
+  width: 23.75px;
+  height: 23.75px;
+  display: inline-block;
+  background-color: #8b2860;
+  cursor: pointer;
+  mask-position: center center;
+  mask-size: 90%;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center center;
+  -webkit-mask-size: 90%;
+  -webkit-mask-repeat: no-repeat; }
+
+.icon-call {
+  mask-image: url("/img/call.svg");
+  -webkit-mask-image: url("/img/call.svg"); }
+
+.icon-call-f {
+  mask-image: url("/img/callFooter.svg");
+  -webkit-mask-image: url("/img/callFooter.svg"); }
+
+.icon-email {
+  mask-image: url("/img/email.svg");
+  -webkit-mask-image: url("/img/email.svg"); }
+
+.icon-location {
+  mask-image: url("/img/location.svg");
+  -webkit-mask-image: url("/img/location.svg"); }
+
+.strelka {
+  top: 60%;
+  left: 6%;
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  border-bottom: 22px solid transparent;
+  border-top: 22px solid white;
+  border-left: 19.5px solid transparent;
+  border-right: 19.5px solid transparent;
+  z-index: 111; }
+
+/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,1070 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+$mustColor:#8b2860;
+$green:#aec50d;
+$colorgray:#bab3b3;
+.gotop {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 333333333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 10px;
+    right: 5px;
+    background-color: #630e3e;
+    i {
+        color: white;
+        font-size: 15px;
+    }
+}
+
+%fs16 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.6px;
+}
+
+%fs14 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.48px;
+}
+
+%fs18 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26.33px;
+}
+
+%fs18-500 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.33px;
+}
+
+%fs14-400 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+%fs36 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44.57px;
+}
+
+%fs12 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+
+%fs27 {
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 33.6px;
+}
+
+%fs33 {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 33.6px;
+}
+
+%fs42 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99999 !important;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgb(240, 239, 239);
+    .navbar {
+        width: 100% !important;
+        .navbar-toggler {
+            outline: none !important;
+        }
+        .navbar-nav {
+            margin: 5px 0px 0px 40px;
+            .nav-link {
+                @extend %fs16;
+                color: black;
+                &:hover {
+                    color: $mustColor;
+                }
+            }
+            .icons {
+                margin-top: 5px;
+                margin-left: 60px;
+            }
+        }
+    }
+}
+
+.section-carusel {
+    margin-top: 58px;
+    .carousel {
+        .vid {
+            width: 90px;
+            height: 90px;
+            top: 43%;
+            left: 46.8%;
+            img {
+                width: 100%;
+                cursor: pointer !important;
+            }
+        }
+        .carousel-indicators {
+            width: 100%;
+            height: 100%;
+            margin: 0 !important;
+            .one {
+                position: absolute;
+                top: 40%;
+                right: 1%;
+                width: 13px;
+                height: 13px;
+                border-radius: 50%;
+                opacity: 1 !important;
+            }
+            .two {
+                position: absolute;
+                top: 48%;
+                right: 1%;
+                width: 13px;
+                height: 13px;
+                border-radius: 50%;
+                opacity: 1 !important;
+            }
+            .three {
+                position: absolute;
+                top: 56%;
+                right: 1%;
+                width: 13px;
+                height: 13px;
+                border-radius: 50%;
+                opacity: 1 !important;
+            }
+            .active {
+                background-color: $mustColor;
+            }
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    header {
+        .navbar-nav {
+            .icons {
+                margin: 0 !important
+            }
+        }
+    }
+}
+
+@media(min-width:200px) and (max-width:300px) {
+    header {
+        box-shadow: 0px 3px 15px white;
+    }
+    .section-carusel {
+        .one {
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 50%;
+            position: absolute !important;
+            top: 25% !important;
+        }
+        .two {
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 50%;
+            position: absolute !important;
+            top: 40% !important;
+        }
+        .three {
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 50%;
+            position: absolute !important;
+            top: 55% !important;
+        }
+        .vid {
+            position: absolute !important;
+            width: 60px !important;
+            height: 60px !important;
+            top: 25% !important;
+            left: 40% !important;
+        }
+    }
+}
+
+@media (max-width:350px) {
+    .section-novosti {
+        .new {
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .card {
+            .topp {
+                .foodXol {
+                    font-size: 15px !important;
+                    font-weight: 400 !important;
+                    list-style: 18px !important;
+                }
+                .aboudFood {
+                    font-size: 12.5px !important;
+                    font-weight: 450 !important;
+                    line-height: 15px !important;
+                }
+                .sana {
+                    font-size: 12px !important;
+                    font-weight: 400 !important;
+                }
+            }
+        }
+        .mediaa {
+            display: block !important;
+            .collps {
+                .aaa {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:301px) and (max-width:576px) {
+    header {
+        box-shadow: 0px 5px 20px rgb(241, 238, 238);
+    }
+    .section-carusel {
+        .one {
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 50%;
+            position: absolute !important;
+            top: 35% !important;
+        }
+        .two {
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 50%;
+            position: absolute !important;
+            top: 45% !important;
+        }
+        .three {
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 50%;
+            position: absolute !important;
+            top: 55% !important;
+        }
+        .vid {
+            position: absolute !important;
+            width: 70px !important;
+            height: 70px !important;
+            top: 30% !important;
+            left: 44% !important;
+        }
+    }
+    .section-servis {
+        .novosti {
+            font-size: 22px !important;
+            font-weight: 500 !important;
+        }
+        .colcha {
+            width: 50% !important;
+        }
+    }
+    .section-novosti {
+        .desktop {
+            display: none;
+        }
+        .mediaa {
+            display: block !important;
+            .colll {
+                padding: 0!important;
+            }
+        }
+        .new {
+            font-size: 25px;
+            font-weight: 500;
+            list-style: 20px;
+            margin-left: 5%;
+        }
+        .unline {
+            margin-left: -5% !important;
+        }
+    }
+    .section-footer {
+        .f-desctop {
+            display: none;
+        }
+        .footerzapas {
+            display: block !important;
+        }
+    }
+}
+
+@media (width:576px) {
+    .section-novosti {
+        .mediaa {
+            .colll {
+                .imgleft {
+                    transform: translateX(-7%) !important;
+                }
+                .imgright {
+                    transform: translateX(8%) !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    header {
+        box-shadow: 0px 2px 5px rgb(240, 239, 239);
+    }
+    .section-carusel {
+        .one {
+            width: 12px !important;
+            height: 12px !important;
+            border-radius: 50%;
+            position: absolute !important;
+            top: 35% !important;
+        }
+        .two {
+            width: 12px !important;
+            height: 12px !important;
+            border-radius: 50%;
+            position: absolute !important;
+            top: 45% !important;
+        }
+        .three {
+            width: 12px !important;
+            height: 12px !important;
+            border-radius: 50%;
+            position: absolute !important;
+            top: 55% !important;
+        }
+        .vid {
+            position: absolute !important;
+            width: 90px !important;
+            height: 90px !important;
+            top: 33% !important;
+            left: 44% !important;
+        }
+    }
+    .section-servis {
+        .novosti {
+            font-size: 26px !important;
+            font-weight: 500 !important;
+        }
+        .colcha {
+            width: 33.3% !important;
+        }
+    }
+    .section-novosti {
+        .new {
+            font-size: 30px;
+            font-weight: 600;
+            list-style: 30px;
+            margin-left: 10%;
+        }
+        .unline {
+            margin-left: -5% !important;
+        }
+        .boxDesktop {
+            .foodXold {
+                font-size: 20px !important;
+                font-weight: 700 !important;
+                line-height: 28px !important;
+            }
+            .daboudFood {
+                font-size: 16px !important;
+                font-weight: 500 !important;
+                line-height: 25px !important;
+                margin-top: 20px !important;
+            }
+            .dsana {
+                font-size: 16px !important;
+                font-weight: 500 !important;
+                line-height: 25px !important;
+                margin-top: 10px !important;
+            }
+        }
+        .boxDesktop1 {
+            .foodXold {
+                font-size: 20px !important;
+                font-weight: 700 !important;
+                line-height: 28px !important;
+            }
+            .daboudFood {
+                font-size: 16px !important;
+                font-weight: 500 !important;
+                line-height: 25px !important;
+                margin-top: 20px !important;
+            }
+            .dsana {
+                font-size: 16px !important;
+                font-weight: 500 !important;
+                line-height: 25px !important;
+                margin-top: 10px !important;
+            }
+        }
+        .div {
+            .samiy {
+                text-align: center !important;
+            }
+            .park {
+                text-align: center !important;
+            }
+        }
+        .boximg {
+            width: 70% !important;
+            img {
+                padding-left: 0 !important;
+                width: 100% !important;
+                margin-left: 22% !important;
+            }
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    header {
+        box-shadow: 0px 5px 20px white;
+    }
+    .section-carusel {
+        .vid {
+            position: absolute !important;
+            width: 90px !important;
+            height: 90px !important;
+            top: 38% !important;
+            left: 46% !important;
+        }
+    }
+    .section-servis {
+        width: 100%;
+        .novosti {
+            font-size: 26px !important;
+            font-weight: 650 !important;
+        }
+        .colcha {
+            padding: 0 10px !important;
+            width: 25% !important;
+        }
+    }
+    .section-novosti {
+        .new {
+            font-size: 34px;
+            font-weight: 650;
+            list-style: 30px;
+            margin-left: 5%;
+        }
+        .unline {
+            margin-left: 5%;
+        }
+        .boxDesktop {
+            .foodXold {
+                font-size: 14px !important;
+                font-weight: bolder !important;
+                line-height: 15px !important;
+            }
+            .daboudFood {
+                font-size: 10px !important;
+                font-weight: 500 !important;
+                line-height: 10px !important;
+            }
+            .dsana {
+                font-size: 10px !important;
+                font-weight: 500 !important;
+                line-height: 10px !important;
+            }
+        }
+        .boxDesktop1 {
+            .foodXold {
+                font-size: 14px !important;
+                font-weight: bolder !important;
+                line-height: 15px !important;
+            }
+            .daboudFood {
+                font-size: 10px !important;
+                font-weight: 500 !important;
+                line-height: 10px !important;
+            }
+            .dsana {
+                font-size: 10px !important;
+                font-weight: 500 !important;
+                line-height: 10px !important;
+            }
+        }
+        .col-md-4 {
+            .div {
+                .samiy {
+                    font-size: 22px !important;
+                    font-weight: 700 !important;
+                    line-height: 20px !important;
+                }
+                .park {
+                    font-size: 18px !important;
+                    font-weight: 550 !important;
+                    line-height: 20px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+    header {
+        .container {
+            .navbar-toggler {
+                flex: end !important;
+            }
+        }
+    }
+    .section-novosti {
+        .boxDesktop {
+            .foodXold {
+                font-size: 15px !important;
+                font-weight: 700 !important;
+            }
+            .daboudFood {
+                font-size: 12px !important;
+                font-weight: 600!important;
+                line-height: 12px !important;
+            }
+            .dsana {
+                font-size: 11px !important;
+                font-weight: 600!important;
+                line-height: 12px !important;
+            }
+        }
+        .boxDesktop1 {
+            .foodXold {
+                font-size: 15px !important;
+                font-weight: 700 !important;
+            }
+            .daboudFood {
+                font-size: 12px !important;
+                font-weight: 600!important;
+                line-height: 12px !important;
+            }
+            .dsana {
+                font-size: 11px !important;
+                font-weight: 600!important;
+                line-height: 12px !important;
+            }
+        }
+        .coll-4 {
+            .div {
+                .samiy {
+                    font-size: 32px !important;
+                    font-weight: 700 !important;
+                }
+                .park {
+                    margin-top: -10px !important;
+                    font-size: 27px !important;
+                    font-weight: 600 !important;
+                }
+            }
+            .boximg {
+                img {
+                    width: 100% !important;
+                    margin-top: 30px !important;
+                    transform: translateX(-25px) !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:480px) {
+    .section-novosti {
+        .card {
+            .foodXol {
+                font-size: 17px !important;
+                font-weight: 600 !important;
+                line-height: 19.6px !important;
+            }
+            .aboudFood {
+                font-size: 14px !important;
+                font-weight: 500 !important;
+                line-height: 18.06px !important;
+            }
+            .sana {
+                font-size: 13px;
+                font-weight: 450;
+            }
+        }
+    }
+    .section-footer {
+        .linerFooter {
+            width: 100%;
+            height: 2px;
+            background-color: $mustColor;
+            display: block !important;
+        }
+    }
+}
+
+//section-novosti
+.section-novosti {
+    overflow-x: hidden !important;
+    .boxDesktop {
+        border-radius: 4px !important;
+        width: 105% !important;
+        height: 100% !important;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        &:hover {
+            .toppd {
+                background-color: $green;
+                color: white;
+            }
+        }
+        .toppd {
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            position: absolute;
+            top: 0;
+            padding: 2% 4%;
+            width: 100%;
+            height: 42%;
+            background-color: white;
+            z-index: 1;
+            .foodXold {
+                @extend %fs18;
+            }
+            .daboudFood {
+                @extend %fs14-400;
+            }
+            .dsana {
+                width: 100% !important;
+                display: flex !important;
+                justify-content: flex-end;
+                @extend %fs14-400;
+            }
+        }
+        .strelka {
+            top: 40% !important;
+        }
+        img {
+            border-radius: 4px !important;
+        }
+    }
+    .boxDesktop1 {
+        border-radius: 4px !important;
+        width: 105% !important;
+        height: 100% !important;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        &:hover {
+            .toppd {
+                background-color: $green;
+                color: white !important;
+            }
+        }
+        .toppd {
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            padding: 2% 4%;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 42%;
+            background-color: white;
+            z-index: 1;
+            .foodXold {
+                @extend %fs18;
+            }
+            .daboudFood {
+                @extend %fs14-400;
+            }
+            .dsana {
+                width: 100% !important;
+                display: flex !important;
+                justify-content: flex-end;
+                @extend %fs14-400;
+            }
+        }
+        img {
+            border-radius: 4px !important;
+        }
+        .strelka {
+            top: 40% !important;
+        }
+    }
+    .coll-4 {
+        padding: 0!important;
+        .div {
+            width: 100% !important;
+            .samiy {
+                @extend %fs42;
+                color: #aec50d;
+            }
+            .park {
+                @extend %fs33;
+                color: $green;
+                text-align: right;
+            }
+        }
+        .boximg {
+            img {
+                width: 123%!important;
+                margin-top: 50px;
+                transform: translateX(-30px);
+            }
+        }
+    }
+    .new {
+        @extend %fs36;
+    }
+    .unline {
+        width: 100%;
+        height: 1px;
+        background-color: $colorgray;
+        margin-top: 33px;
+    }
+    .mediaa {
+        display: none;
+        z-index: 3333;
+    }
+    .colll {
+        margin: 50px 0px 120px 0px;
+        padding: 0px !important;
+        .imgFamily {
+            box-shadow: none !important;
+            .imgleft {
+                transform: translateY(100px);
+                bottom: 0;
+                left: 0;
+            }
+            .imgright {
+                top: 0;
+                right: 0;
+                transform: translateY(-100px);
+            }
+        }
+        .textfam {
+            margin-left: 5%;
+            @extend %fs36;
+            color: $green;
+        }
+        .textfamun {
+            margin-left: 5%;
+            @extend %fs27;
+            color: $green;
+        }
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+        box-shadow: 1px 5px 5px rgb(230, 223, 223), -1px -1px 2px rgb(230, 223, 223);
+        border-radius: 10px;
+        img {
+            width: 100% !important;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .topp {
+            width: 100%;
+            height: 60%;
+            background-color: white;
+            top: 0;
+            left: 0;
+            z-index: 11;
+            border-radius: 10px;
+            padding: 6% 6% 0% 6%;
+            .foodXol {
+                @extend %fs18;
+                color: rgba(111, 111, 111, 1);
+            }
+            .aboudFood {
+                @extend %fs18-500;
+                color: rgba(111, 111, 111, 1);
+            }
+            .sana {
+                @extend %fs14-400;
+                color: rgba(111, 111, 111, 1);
+                margin-left: 75% !important;
+            }
+        }
+        &:hover .topp {
+            background-color: $green;
+        }
+        &:hover .strelka {
+            border-top: 22px solid $green;
+        }
+        &:hover p {
+            color: white !important;
+        }
+    }
+    .collps {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: flex-end;
+        margin-right: 20px;
+        .aaa {
+            @extend %fs18;
+            color: rgba(111, 111, 111, 1)
+        }
+    }
+}
+
+//section-servis
+.section-servis {
+    width: 100%;
+    .novosti {
+        @extend %fs36;
+    }
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: rgb(209, 197, 197);
+        margin-top: 33px;
+    }
+    .colcha {
+        padding: 0 10px !important;
+        width: 20%;
+        .card {
+            background-image: url("../img/gul.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 5px 5px 5px rgb(231, 227, 227), -1px -1px 5px rgb(245, 241, 241);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            cursor: pointer;
+            border: none;
+            &:hover {
+                box-shadow: 2px 10px 10px rgb(216, 213, 213), 0px 0px 0px transparent;
+            }
+            &:hover .call {
+                background-color: $mustColor;
+            }
+            &:hover .icon {
+                background-color: white;
+            }
+            .poisk {
+                margin-top: 30px;
+            }
+            .call {
+                position: absolute;
+                top: 6px;
+                left: 6px;
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+            }
+            .texticon {
+                @extend %fs18;
+                color: $mustColor;
+            }
+            .culo {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .textIcon {
+                    width: 90%;
+                    color: white;
+                    padding: 1px 0px;
+                    box-sizing: border-box;
+                    background-color: $mustColor;
+                    // padding: 0px 30px;
+                    border-radius: 15px;
+                }
+            }
+        }
+        .oyna {
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+        }
+    }
+}
+
+.section-footer {
+    .doira {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid $mustColor;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .first {
+        @extend %fs18;
+        color: black;
+        cursor: pointer;
+        &:hover {
+            color: $mustColor;
+        }
+    }
+    .bgg {
+        padding: 0px 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover {
+            background-color: $colorgray;
+        }
+        &:hover .iconFooter {
+            background-color: $mustColor;
+        }
+        &:hover span {
+            color: white;
+        }
+    }
+    .container-fluid {
+        background-color: $mustColor;
+        height: 48px;
+        p {
+            color: white;
+        }
+    }
+    .footerzapas {
+        .blackk {
+            &:hover {
+                color: black !important;
+            }
+        }
+        .chiziq {
+            width: 94%;
+            height: 2px;
+            background-color: $mustColor;
+            margin-left: 3%;
+        }
+        .quti1,
+        .quti2 {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid $mustColor;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .quti2 {
+            margin-left: 30%;
+        }
+        .textmitti {
+            @extend %fs12;
+            color: $colorgray;
+            padding: 2px 3px;
+            border-radius: 5px;
+            margin-top: 20px;
+            &:hover {
+                background-color: $colorgray;
+                color: white;
+                .iconFooter {
+                    background-color: $mustColor;
+                }
+            }
+            .iconFooter {
+                margin-bottom: -3px;
+            }
+        }
+    }
+}
+
+.quyi-media {
+    background-color: $mustColor;
+    height: 60px !important;
+}
+
+//mask icon
+.iconFooter {
+    width: 15.83px;
+    height: 15.83px;
+    background-color: $colorgray;
+    display: inline-block;
+    cursor: pointer;
+    mask: {
+        position: center center;
+        repeat: no-repeat;
+        size: 100%;
+    }
+    -webkit-mask: {
+        position: center center;
+        size: 100%;
+        repeat: no-repeat;
+    }
+}
+
+.icon {
+    width: 23.75px;
+    height: 23.75px;
+    display: inline-block;
+    background-color: $mustColor;
+    cursor: pointer;
+    mask: {
+        position: center center;
+        size: 90%;
+        repeat: no-repeat;
+    }
+    -webkit-mask: {
+        position: center center;
+        size: 90%;
+        repeat: no-repeat;
+    }
+}
+ 
+.icon-call { 
+    mask-image: url('/img/call.svg');
+    -webkit-mask-image: url('/img/call.svg');
+}
+
+.icon-call- f{
+    mask-image: url('/img/callFooter.svg');
+    -webkit-mask-image: url('/img/callFooter.svg');
+}
+
+.icon-email{ 
+    mask-image: url('/img/email.svg');
+    -webkit-mask-image: url('/img/email.svg');
+}.icon-location{
+        mask-image: url('/img/location.svg');
+    -web kit-mask-image: url('/img/location.svg');
+}
+
+
+.strelka{
+    top: 60%;
+    left: 6%;
+    position: absolute;
+    width: 39px;
+    height: 44px;
+    border-bottom: 22px solid transparent; 
+    border-top: 22px solid white;
+        border-left: 19.5px solid transparent;
+        border-right: 19.5px solid transparent;
+        z-index: 111;
+    }
